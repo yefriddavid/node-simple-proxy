@@ -5,7 +5,7 @@ const app = require("express")()
 const httpProxy = require('http-proxy')
 
 const TARGET_PORT = process.env.TARGET_PORT
-//const TARGET_HOST = process.env.TARGET_HOST
+const TARGET_HOST = process.env.TARGET_HOST
 const PROXY_PORT = process.env.PROXY_PORT
 
 httpProxy.createServer({
