@@ -8,6 +8,7 @@ const TARGET_PORT = process.env.TARGET_PORT
 const TARGET_HOST = process.env.TARGET_HOST
 const PROXY_PORT = process.env.PROXY_PORT
 
+console.log(TARGET_PORT)
 httpProxy.createServer({
   target: {
     host: TARGET_HOST, //'localhost',

@@ -12,7 +12,7 @@ module.exports = {
     env: {
       NODE_ENV: 'development',
 	  PROXY_PORT: 443,
-	  TARGET_PROXY: 8081
+	  TARGET_PORT: 8082
     },
     env_production: {
       NODE_ENV: 'production'
