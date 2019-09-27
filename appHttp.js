@@ -20,12 +20,12 @@ http.createServer(function (req, res) {
 
   console.log("Crossing...");
     
-    proxy.web(req, res, {      
-      target: {
+  proxy.web(req, res, {      
+    target: {
         host: SOURCE_HOST,
         port: SOURCE_PORT
-      }
-    });
+    }
+  });
 
 }).listen(LOCAL_PORT);
 
