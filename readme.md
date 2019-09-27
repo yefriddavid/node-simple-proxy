@@ -1,0 +1,3 @@
+netstat -a
+
+netstat -tolpn

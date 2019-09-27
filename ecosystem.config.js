@@ -7,12 +7,12 @@ module.exports = {
     args: 'one two',
     instances: 1,
     autorestart: true,
-    watch: false,
+    watch: true,
     max_memory_restart: '1G',
     env: {
       NODE_ENV: 'development',
-	  PROXY_PORT: 443,
-	  TARGET_PORT: 8082
+	    PROXY_PORT_TEST: 4434,
+	    TARGET_PORT_TEST: 80824
     },
     env_production: {
       NODE_ENV: 'production'
